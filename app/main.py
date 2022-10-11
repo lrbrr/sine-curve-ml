@@ -13,7 +13,7 @@ local_css("./app/css/style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
 with header:
-    st.title('Predict Sine values using ML Algo')
+    st.title('Predict Sine values using NN')
 
 with form:
     st.text('Generate random sine values for training')
