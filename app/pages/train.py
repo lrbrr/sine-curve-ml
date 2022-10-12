@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from tensorflow import keras
-from tensorflow.keras import layers
+import keras
+from keras import layers
 from css.cssHelper import local_css, remote_css, icon
 
 st.set_page_config(page_icon = '🦋')
