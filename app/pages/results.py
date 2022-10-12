@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_icon = '🦋')
 
-dumps = r'/home/sauravs/heroku/sine-curve-ml/dumps/'
+dumps = r'./app/dumps/'
 
 hist = pd.read_csv(dumps + 'train_history.csv')  # Adding values to the card
 epoch = [i for i in range(len(hist))]

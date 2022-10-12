@@ -13,7 +13,7 @@ st.set_page_config(page_icon = '🦋')
 local_css("./app/css/style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
-dumps = r'/home/sauravs/heroku/sine-curve-ml/dumps/'
+dumps = r'./app/dumps/'
 
 df = pd.read_csv(dumps + 'dataset.csv')
 # print(df.head())

@@ -25,7 +25,7 @@ for i in range(train_len):
         sin_x.append(math.sin(dataPoints))          # Outputs
 
 # store data into dataset
-dumps = r'/home/sauravs/heroku/sine-curve-ml/dumps/'
+dumps = r'app/dumps/'
 
 df = pd.DataFrame({'x': x, 'sin(x)': sin_x})
 df.to_csv(dumps + "dataset.csv", index=False)
