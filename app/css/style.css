@@ -4,8 +4,15 @@ body {
 }
 
 .stButton>button {
-    color: #4F8BF9;
-    border-radius: 80%;
+    color: black;
+    background-color: #4CAF50;
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.stSpinner>spinner {
+    border-radius: 0%;
     height: 100%;
     width: 100%;
 }
