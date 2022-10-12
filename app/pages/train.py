@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from css.cssHelper import local_css, remote_css, icon
